@@ -28,6 +28,10 @@ class Student:
             grades_list.extend(i)
         return round(sum(grades_list) / len(grades_list), 1)
 
+    ''' неи нужное убрать'''
+
+
+
     def __str__(self):
         courses_in_progress_string = ', '.join(self.courses_in_progress)
         finished_courses_string = ', '.join(self.finished_courses)
